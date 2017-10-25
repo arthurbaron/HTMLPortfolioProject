@@ -1,15 +1,92 @@
-.header{
-
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background: #F5F5F5;
+  color: #141B26;
+  font-family: "Helvetica Neue", Arial, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* HEADER */
+
+.header{
+  width: auto;
+  background: #141B26;
+  color: white;
+  padding: 5em 0;
+}
+
+.header h1, .header h2, .header h3{
+  text-align: center;
+}
+
+.header h2{
+  color: white;
+  opacity: 0.5;
+}
+
+/* TAGLINE */
 
 .tagline{
-
+  padding: 1.5em;
+  background: rgba(20, 27, 38, 0.9);
+  color: white;
 }
 
-.skill{
+.tagline h3{
+  padding-bottom: 0.5em;
+}
 
+.tagline p{
+  opacity: 0.7;
+}
+
+/* SKILLS */
+
+.skill{
+  padding: 1.5em;
+  background: #F7B635;
+  padding: 1em;
+}
+
+.skill h3{
+  padding: 0.5em;
+}
+
+.skill ul{
+  text-indent: 0.5em;
+  padding-left: 1.5em;
+}
+
+.skill p{
+  padding: 0.5em;
+  opacity: 0.7;
 }
 
 .contact{
-  
+  padding: 3em;
+  text-align: center;
+  background: rgba(20, 27, 38, 0.1);
+}
+
+.contact h3{
+  font-size: 0.8em;
+  padding: 0.5em 0;
+}
+
+.contact p{
+  font-size: 0.8em;
+}
+
+.contact a{
+  color: #141B26;
 }
